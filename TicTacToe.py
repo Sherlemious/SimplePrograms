@@ -64,19 +64,7 @@ def RandDraw():
 
 
 def DrawMove():
-    if Values[5]=="O" and Values[1]!=Values[2]!=Values[3]!=Values[4]!=Values[6]!=Values[7]!=Values[8]!=Values[9]!="X"!="O": Values[1]="X"
-    if Values[5]=="O"==Values[3] and Values[1]=="X" and Values[2]!=Values[3]!=Values[4]!=Values[6]!=Values[7]!=Values[8]!=Values[9]!="X"!="O": Values[7]="X"
-    if Values[5]=="O"==Values[3]==Values[4] and Values[1]=="X"==Values[7] and Values[2]!=Values[4]!=Values[6]!=Values[8]!=Values[9]!="X"!="O": Values[6]="X"
-    if Values[5]=="O"==Values[3]==Values[4] and Values[1]=="X"==Values[7] and Values[2]!=Values[4]!=Values[6]!=Values[8]!=Values[9]!="X"!="O": Values[6]="X"
-
-    #
-    #
-    #
-    #
-
-
-
-    else: RandDraw
+    RandDraw()
         
 
 
