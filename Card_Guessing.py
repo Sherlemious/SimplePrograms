@@ -1,4 +1,4 @@
-##This is a program that counts cards arleady seen from a deck of cards and outputs whether the next card is more likely to be higher or lower than the previous one.
+##This is a program that counts cards already seen from a deck of cards and outputs whether the next card is more likely to be higher or lower than the previous one.
 
 def up():
     print("Choose up")
