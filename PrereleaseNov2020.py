@@ -26,7 +26,7 @@ ItemsDictionary = {
 print(fr"Case options are : A1 : ", ItemsDictionary["A1"] , "A2 : ", ItemsDictionary["A2"])
 chosen = input("Please pick a code ")
 while chosen != "A1" and chosen != "A2":
-    print("Please choose a valid case code ")
+    chosen = input("Please pick a code ")
 
 tot+=ItemsDictionary[chosen][2]
 
@@ -103,5 +103,3 @@ elif added  > 1:
 else: newtot = tot
 
 print(fr"total price is : {newtot} , you have saved {newtot-tot} dollars")
-
-
